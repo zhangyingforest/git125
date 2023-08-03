@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="891695c8-74bc-4aa6-9566-eb2d183146c7" name="Default Changelist" comment="添加了spring的项目一">
+      <change afterPath="$PROJECT_DIR$/aop1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/src/main/java/com/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/src/main/java/com/yc/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/src/main/java/com/yc/aspects/ByeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/src/main/java/com/yc/aspects/HelloAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/src/main/java/com/yc/aspects/MyAspects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/src/main/java/com/yc/biz/OrderBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/src/main/java/com/yc/biz/OrderBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/src/main/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/target/classes/com/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/target/classes/com/yc/Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/target/classes/com/yc/aspects/ByeAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/target/classes/com/yc/aspects/HelloAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/target/classes/com/yc/aspects/MyAspects.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/target/classes/com/yc/biz/OrderBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/target/classes/com/yc/biz/OrderBizImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop1/target/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/sun/proxy/$Proxy0.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/src/main/java/com/yc/cglibproxy/CglibProxyTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/src/main/java/com/yc/cglibproxy/OrderBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/src/main/java/com/yc/cglibproxy/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/src/main/java/com/yc/jdkproxy/JdkProxyTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/src/main/java/com/yc/jdkproxy/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/src/main/java/com/yc/staticproxy/OrderBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/src/main/java/com/yc/staticproxy/OrderBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/src/main/java/com/yc/staticproxy/StaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/src/main/java/com/yc/staticproxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/target/classes/com/yc/cglibproxy/CglibProxyTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/target/classes/com/yc/cglibproxy/OrderBizImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/target/classes/com/yc/cglibproxy/Test3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/target/classes/com/yc/jdkproxy/JdkProxyTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/target/classes/com/yc/jdkproxy/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/target/classes/com/yc/staticproxy/OrderBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/target/classes/com/yc/staticproxy/OrderBizImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/target/classes/com/yc/staticproxy/StaticProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfproxy/target/classes/com/yc/staticproxy/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/service/UserBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfspring/target/classes/com/yc/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfspring/target/classes/com/yc/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfspring/target/classes/com/yc/service/UserBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfspring/target/classes/com/yc/service/UserBizImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selfspring/target/classes/org/ycframework/context/YcBeanDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/log/test.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/App1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/bean/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/bean/OpRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/bean/OpType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/biz/AccountBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/biz/AccountBizImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/configs/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/configs/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/dao/AccountDaoJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/dao/OpRecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/java/com/yc/dao/OpRecordJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/test/java/com/TestSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/test/java/com/yc/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/test/java/com/yc/Test2_DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/test/java/com/yc/dao/AccountDaoJdbcTemplateImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/src/test/java/com/yc/dao/OpRecordJdbcTemplateImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/App1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/bean/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/bean/OpRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/bean/OpType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/biz/AccountBiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/biz/AccountBizImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/configs/Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/configs/DataSourceConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/dao/AccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/dao/AccountDaoJdbcTemplateImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/dao/OpRecordDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/com/yc/dao/OpRecordJdbcTemplateImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/test-classes/com/TestSuit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/test-classes/com/yc/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/test-classes/com/yc/Test2_DataSourceConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/test-classes/com/yc/dao/AccountDaoJdbcTemplateImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/target/test-classes/com/yc/dao/OpRecordJdbcTemplateImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txbank/testbank.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/TestMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/TestMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/UserBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/service/UserBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/UserBizImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/src/main/java/com/yc/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/java/org/ycframework/TestMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/src/main/java/org/ycframework/TestMain3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/java/org/ycframework/annotation/YcResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/src/main/java/org/ycframework/annotation/YcResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/java/org/ycframework/annotation/YcScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/src/main/java/org/ycframework/annotation/YcScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/java/org/ycframework/context/YcAnnotationConfigApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/src/main/java/org/ycframework/context/YcAnnotationConfigApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/java/org/ycframework/context/YcBeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/src/main/java/org/ycframework/context/YcBeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/target/classes/com/yc/MyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/target/classes/com/yc/MyConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/target/classes/com/yc/TestMain2.class" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/target/classes/com/yc/TestMain2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/target/classes/com/yc/UserBiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/target/classes/com/yc/UserBizImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/target/classes/com/yc/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/target/classes/com/yc/UserDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/target/classes/org/ycframework/TestMain3.class" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/target/classes/org/ycframework/TestMain3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/target/classes/org/ycframework/annotation/YcResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/target/classes/org/ycframework/annotation/YcResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/target/classes/org/ycframework/annotation/YcScope.class" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/target/classes/org/ycframework/annotation/YcScope.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfspring/target/classes/org/ycframework/context/YcAnnotationConfigApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/selfspring/target/classes/org/ycframework/context/YcAnnotationConfigApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springtest4/user/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springtest4/user/BankAccount.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\MavenRepository" />
+        <option name="mavenHome" value="C:/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2T3No94zAioD1U88IPMBfy3p6jC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/txbank/src/main/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yc.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\git125\txbank\src\main\resources" />
+      <recent name="D:\IdeaProjects\git125\aop1\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yc.cglibproxy" />
+      <recent name="org.springframework" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OpRecordJdbcTemplateImplTest">
+    <configuration name="AccountDaoJdbcTemplateImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="txbank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yc.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.dao.AccountDaoJdbcTemplateImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpRecordJdbcTemplateImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="txbank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yc.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.dao.OpRecordJdbcTemplateImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpRecordJdbcTemplateImplTest.findOpRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="txbank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yc.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.dao.OpRecordJdbcTemplateImplTest" />
+      <option name="METHOD_NAME" value="findOpRecord" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpRecordJdbcTemplateImplTest.insertOpRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="txbank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yc.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.dao.OpRecordJdbcTemplateImplTest" />
+      <option name="METHOD_NAME" value="insertOpRecord" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpRecordJdbcTemplateImplTest.testFindOpRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="txbank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yc.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.yc.dao.OpRecordJdbcTemplateImplTest" />
+      <option name="METHOD_NAME" value="testFindOpRecord" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OpRecordJdbcTemplateImplTest" />
+        <item itemvalue="JUnit.OpRecordJdbcTemplateImplTest.testFindOpRecord" />
+        <item itemvalue="JUnit.OpRecordJdbcTemplateImplTest.findOpRecord" />
+        <item itemvalue="JUnit.OpRecordJdbcTemplateImplTest.insertOpRecord" />
+        <item itemvalue="JUnit.AccountDaoJdbcTemplateImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\zy\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="891695c8-74bc-4aa6-9566-eb2d183146c7" name="Default Changelist" comment="" />
+      <created>1690267976473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690267976473</updated>
+      <workItem from="1690267978908" duration="10663000" />
+      <workItem from="1690330988624" duration="11844000" />
+      <workItem from="1690365623412" duration="5408000" />
+      <workItem from="1690421705969" duration="1766000" />
+      <workItem from="1690435650792" duration="11092000" />
+      <workItem from="1690502929605" duration="17199000" />
+      <workItem from="1690848079021" duration="20128000" />
+      <workItem from="1690955647836" duration="14387000" />
+      <workItem from="1691022073288" duration="10874000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1690268689076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690268689076</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加了Hello.java文件">
+      <created>1690269046153</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690269046153</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加了spring的项目一">
+      <created>1690503799927</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690503799927</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <MESSAGE value="添加了Hello.java文件" />
+    <MESSAGE value="添加了spring的项目一" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了spring的项目一" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="539" y="129" key="#HTTP_Proxy" timestamp="1690374959592">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="539" y="129" key="#HTTP_Proxy/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690374959592" />
+    <state x="651" y="274" key="#Notifications" timestamp="1690268843994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="651" y="274" key="#Notifications/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690268843994" />
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1691024276066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1691024276066" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1691028585510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1691028585510" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1690268627198">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690268627198" />
+    <state width="1492" height="247" key="GridCell.Tab.0.bottom" timestamp="1691033545043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="67" key="GridCell.Tab.0.bottom/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1690982529103" />
+    <state width="1492" height="247" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1691033545043" />
+    <state width="1492" height="117" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1690553896620" />
+    <state width="1492" height="247" key="GridCell.Tab.0.center" timestamp="1691033545043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="67" key="GridCell.Tab.0.center/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1690982529103" />
+    <state width="1492" height="247" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1691033545043" />
+    <state width="1492" height="117" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1690553896620" />
+    <state width="1492" height="247" key="GridCell.Tab.0.left" timestamp="1691033545043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="67" key="GridCell.Tab.0.left/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1690982529102" />
+    <state width="1492" height="247" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1691033545043" />
+    <state width="1492" height="117" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1690553896620" />
+    <state width="1492" height="247" key="GridCell.Tab.0.right" timestamp="1691033545043">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="67" key="GridCell.Tab.0.right/0.0.1536.824/-1440.0.1440.860@0.0.1536.824" timestamp="1690982529103" />
+    <state width="1492" height="247" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1691033545043" />
+    <state width="1492" height="117" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1690553896620" />
+    <state width="1492" height="79" key="GridCell.Tab.1.bottom" timestamp="1690896740442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="79" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690896740442" />
+    <state width="1492" height="117" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1690553896620" />
+    <state width="1492" height="79" key="GridCell.Tab.1.center" timestamp="1690896740442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="79" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690896740442" />
+    <state width="1492" height="117" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1690553896620" />
+    <state width="1492" height="79" key="GridCell.Tab.1.left" timestamp="1690896740442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="79" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690896740442" />
+    <state width="1492" height="117" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1690553896620" />
+    <state width="1492" height="79" key="GridCell.Tab.1.right" timestamp="1690896740442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="79" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690896740442" />
+    <state width="1492" height="117" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1690553896620" />
+    <state width="1492" height="305" key="GridCell.Tab.2.bottom" timestamp="1690289317698">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="305" key="GridCell.Tab.2.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690289317698" />
+    <state width="1492" height="305" key="GridCell.Tab.2.center" timestamp="1690289317698">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="305" key="GridCell.Tab.2.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690289317698" />
+    <state width="1492" height="305" key="GridCell.Tab.2.left" timestamp="1690289317698">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="305" key="GridCell.Tab.2.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690289317698" />
+    <state width="1492" height="305" key="GridCell.Tab.2.right" timestamp="1690289317698">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="305" key="GridCell.Tab.2.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690289317698" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1690852170394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690852170394" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1690504850064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690504850064" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1691048586204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1691048586204" />
+    <state x="540" y="156" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1691032893787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="156" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1691032893787" />
+    <state x="401" y="72" key="new project wizard" timestamp="1690956252067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="401" y="72" key="new project wizard/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690956252067" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1690966305990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1690966305990" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selfspring/src/main/java/com/yc/service/UserBizImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selfproxy/src/main/java/com/yc/staticproxy/StaticProxy.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selfproxy/src/main/java/com/yc/staticproxy/StaticProxy.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selfproxy/src/main/java/com/yc/staticproxy/StaticProxy.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selfproxy/src/main/java/com/yc/staticproxy/OrderBizImpl.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selfproxy/src/main/java/com/yc/jdkproxy/JdkProxyTool.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selfproxy/src/main/java/com/yc/jdkproxy/Test2.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selfproxy/src/main/java/com/yc/jdkproxy/Test2.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selfproxy/src/main/java/com/yc/jdkproxy/JdkProxyTool.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class</url>
+          <line>56</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selfproxy/src/main/java/com/yc/cglibproxy/Test3.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/selfproxy/src/main/java/com/yc/cglibproxy/CglibProxyTool.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/txbank/src/test/java/com/yc/Test1.java</url>
+          <line>25</line>
+          <properties class="com.yc.Test1" method="testAddAccount">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
