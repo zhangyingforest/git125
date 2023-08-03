@@ -6,7 +6,7 @@ import org.ycframework.annotation.YcPropertySource;
 
 @YcConfiguration
 
-@YcComponentScan(basePackages = {"com.yc","com.yc2"} )
+@YcComponentScan(basePackages = {"com.yc","com.yc2","com.yc3"} )
 
 @YcPropertySource(value="db.properties")
 public class MyConfig {

@@ -59,7 +59,8 @@
     <loggers>
         <!--过滤掉spring和mybatis的一些无用的DEBUG信息-->
         <!--  在org.ycframework这个包及子包中的类的 日志方法 warn(),debug() 输出的日志信息的级别 -->
-        <logger name="org.ycframework" level="trace"></logger>
+        <logger name="org.ycframework" level="error">
+        </logger>
         <logger name="com.yc" level="INFO"></logger>
 
         <root level="all">

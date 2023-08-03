@@ -1,6 +1,7 @@
 package springtest4.user;
 
 import lombok.Data;
+import org.springframework.beans.factory.config.BeanDefinition;
 
 /**
  * @program: git125
@@ -12,6 +13,8 @@ import lombok.Data;
 public class BankAccount {
     private int id;
     private double balance;
+
+    BeanDefinition bd;
 
 
 }
