@@ -21,3 +21,8 @@ create table oprecord
 );
 
 
+alter table accounts
+   add constraint ck_balance
+      check (   balance>0 );
+
+

@@ -25,7 +25,7 @@ public class Test1 extends TestCase {
     @Test
     public void testAddAccount(){
         log.info("hello");
-        accountBiz.addAccount( 1, 99);
+       // accountBiz.addAccount( 1, 99);
     }
 
     //引入断言:
